@@ -1,0 +1,125 @@
+/* common style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #fd0101;
+    color: #ffffff;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#header{
+    width: 80%;
+    margin: 10% 10%;
+    align-items: center;
+    height: 500px;
+    background-color:#ffa600;
+    display: flex;
+    margin-top: 30px;
+    padding: 0 50px;
+    border-radius: 20px;
+}
+
+.header-title{
+    width: 50%;
+}
+
+#header-color{
+    color: white;
+    font-size: 50px;
+}
+
+#heading-text{
+    color: white;  
+}
+
+.header-image{
+    width: 50%;
+}
+
+.header-image img {
+    width: 100%;
+}
+
+/* common style ends */
+
+/* main section style starts */
+
+.leftside-bar{
+    display:flex;
+    flex-direction: column;
+    width:20%;
+    margin: 10% 10%;
+    padding: 0 30px;
+    background-color:#000000;
+    font: #ffffff; 
+    border-radius: 10px;
+
+}
+
+#match-info{
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #fd0101;
+    color: #ffffff;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#grouop-info{
+    text-decoration: none;
+    font-size: 15px;
+    background-color:green;
+    color: #ffffff;
+    margin-top: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#blog-info{
+    text-decoration: none;
+    font-size: 15px;
+    background-color:turquoise;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* blog image part style start here */
+
+.blog .blog-image img {
+    width: 224px;
+    height: 104px;
+}
+
+/* blog part style end here */
+
+/* blog content style starts here */
+.container-card{
+   display: grid;
+   width: 80%;
+   height: 1050px;
+   grid-template-columns: repeat(3, 1fr);
+   background-color:aqua;
+   align-items: center;
+   margin: 10% 10%;
+   margin-top: 30px;
+   border-radius: 20px;
+   padding: 0 50px;
+}
+/* blog content style end here */
+/* main section style ends */
